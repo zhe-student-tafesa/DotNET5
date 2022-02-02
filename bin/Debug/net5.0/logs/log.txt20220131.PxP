@@ -1,0 +1,5 @@
+2022-01-31 17:21:38,756 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2022-01-31 17:21:38,772 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2022-01-31 17:21:38,777 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\Users\61415\source\repos\WebApplication2\WebApplication2
+2022-01-31 17:22:08,773 [5] WARN  WebApplication2.Controllers.HomeController - HomeController被构造
+2022-01-31 17:22:08,801 [5] INFO  WebApplication2.Controllers.HomeController - 这是HomeController的index 方法

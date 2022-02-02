@@ -1,0 +1,33 @@
+2022-02-02 07:35:06,958 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://[::]:6200
+2022-02-02 07:35:06,965 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2022-02-02 07:35:06,966 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Production
+2022-02-02 07:35:06,966 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\Users\61415\source\repos\WebApplication2\WebApplication2\bin\Release\net5.0
+2022-02-02 07:35:27,509 [10] WARN  WebApplication2.Controllers.HomeController - HomeController被构造
+2022-02-02 07:35:27,522 [10] INFO  WebApplication2.Controllers.HomeController - 这是HomeController的index 方法
+2022-02-02 07:46:01,580 [27] WARN  WebApplication2.Controllers.HomeController - HomeController被构造
+2022-02-02 07:46:01,584 [27] INFO  WebApplication2.Controllers.HomeController - 这是HomeController的index 方法
+2022-02-02 08:04:36,924 [23] INFO  Microsoft.Hosting.Lifetime - Application is shutting down...
+2022-02-02 08:05:07,823 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://[::]:6200
+2022-02-02 08:05:07,832 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2022-02-02 08:05:07,833 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Production
+2022-02-02 08:05:07,833 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\Users\61415\source\repos\WebApplication2\WebApplication2\bin\Release\net5.0
+2022-02-02 08:05:13,460 [9] WARN  Microsoft.AspNetCore.Session.SessionMiddleware - Error unprotecting the session cookie.
+System.Security.Cryptography.CryptographicException: The payload was invalid.
+   at Microsoft.AspNetCore.DataProtection.Cng.CbcAuthenticatedEncryptor.DecryptImpl(Byte* pbCiphertext, UInt32 cbCiphertext, Byte* pbAdditionalAuthenticatedData, UInt32 cbAdditionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.Cng.Internal.CngAuthenticatedEncryptorBase.Decrypt(ArraySegment`1 ciphertext, ArraySegment`1 additionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.UnprotectCore(Byte[] protectedData, Boolean allowOperationsOnRevokedKeys, UnprotectStatus& status)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.DangerousUnprotect(Byte[] protectedData, Boolean ignoreRevocationErrors, Boolean& requiresMigration, Boolean& wasRevoked)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.Unprotect(Byte[] protectedData)
+   at Microsoft.AspNetCore.Session.CookieProtection.Unprotect(IDataProtector protector, String protectedText, ILogger logger)
+2022-02-02 08:05:13,514 [9] WARN  WebApplication2.Controllers.HomeController - HomeController被构造
+2022-02-02 08:05:13,518 [9] INFO  WebApplication2.Controllers.HomeController - 这是HomeController的index 方法
+2022-02-02 11:04:21,959 [5] INFO  Microsoft.Hosting.Lifetime - Application is shutting down...
+2022-02-02 11:04:26,412 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://[::]:6200
+2022-02-02 11:04:26,420 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2022-02-02 11:04:26,422 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Production
+2022-02-02 11:04:26,423 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\Users\61415\source\repos\WebApplication2\WebApplication2\bin\Release\net5.0
+2022-02-02 11:07:03,982 [4] INFO  Microsoft.Hosting.Lifetime - Application is shutting down...
+2022-02-02 11:08:49,328 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://[::]:6200
+2022-02-02 11:08:49,335 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2022-02-02 11:08:49,336 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Production
+2022-02-02 11:08:49,337 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\Users\61415\source\repos\WebApplication2\WebApplication2\bin\Release\net5.0

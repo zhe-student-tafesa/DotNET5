@@ -1,0 +1,55 @@
+2022-02-02 08:03:51,579 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2022-02-02 08:03:51,616 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2022-02-02 08:03:51,627 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\Users\61415\source\repos\WebApplication2\WebApplication2
+2022-02-02 08:03:51,748 [4] WARN  Microsoft.AspNetCore.Session.SessionMiddleware - Error unprotecting the session cookie.
+System.Security.Cryptography.CryptographicException: The payload was invalid.
+   at Microsoft.AspNetCore.DataProtection.Cng.CbcAuthenticatedEncryptor.DecryptImpl(Byte* pbCiphertext, UInt32 cbCiphertext, Byte* pbAdditionalAuthenticatedData, UInt32 cbAdditionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.Cng.Internal.CngAuthenticatedEncryptorBase.Decrypt(ArraySegment`1 ciphertext, ArraySegment`1 additionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.UnprotectCore(Byte[] protectedData, Boolean allowOperationsOnRevokedKeys, UnprotectStatus& status)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.DangerousUnprotect(Byte[] protectedData, Boolean ignoreRevocationErrors, Boolean& requiresMigration, Boolean& wasRevoked)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.Unprotect(Byte[] protectedData)
+   at Microsoft.AspNetCore.Session.CookieProtection.Unprotect(IDataProtector protector, String protectedText, ILogger logger)
+2022-02-02 08:03:51,837 [4] WARN  WebApplication2.Controllers.HomeController - HomeController被构造
+2022-02-02 08:03:51,864 [4] INFO  WebApplication2.Controllers.HomeController - 这是HomeController的index 方法
+2022-02-02 10:55:26,250 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2022-02-02 10:55:26,272 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2022-02-02 10:55:26,275 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\Users\61415\source\repos\WebApplication2\WebApplication2
+2022-02-02 10:55:26,361 [7] WARN  Microsoft.AspNetCore.Session.SessionMiddleware - Error unprotecting the session cookie.
+System.Security.Cryptography.CryptographicException: The payload was invalid.
+   at Microsoft.AspNetCore.DataProtection.Cng.CbcAuthenticatedEncryptor.DecryptImpl(Byte* pbCiphertext, UInt32 cbCiphertext, Byte* pbAdditionalAuthenticatedData, UInt32 cbAdditionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.Cng.Internal.CngAuthenticatedEncryptorBase.Decrypt(ArraySegment`1 ciphertext, ArraySegment`1 additionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.UnprotectCore(Byte[] protectedData, Boolean allowOperationsOnRevokedKeys, UnprotectStatus& status)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.DangerousUnprotect(Byte[] protectedData, Boolean ignoreRevocationErrors, Boolean& requiresMigration, Boolean& wasRevoked)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.Unprotect(Byte[] protectedData)
+   at Microsoft.AspNetCore.Session.CookieProtection.Unprotect(IDataProtector protector, String protectedText, ILogger logger)
+2022-02-02 10:55:26,428 [7] WARN  WebApplication2.Controllers.HomeController - HomeController被构造
+2022-02-02 10:55:26,455 [7] INFO  WebApplication2.Controllers.HomeController - 这是HomeController的index 方法
+2022-02-02 11:04:45,704 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2022-02-02 11:04:45,719 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2022-02-02 11:04:45,723 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\Users\61415\source\repos\WebApplication2\WebApplication2
+2022-02-02 11:04:45,801 [8] WARN  WebApplication2.Controllers.HomeController - HomeController被构造
+2022-02-02 11:04:45,829 [8] INFO  WebApplication2.Controllers.HomeController - 这是HomeController的index 方法
+2022-02-02 11:05:06,163 [4] WARN  WebApplication2.Controllers.HomeController - HomeController被构造
+2022-02-02 11:05:06,169 [4] INFO  WebApplication2.Controllers.HomeController - 这是HomeController的index 方法
+2022-02-02 11:06:22,951 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2022-02-02 11:06:22,971 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2022-02-02 11:06:22,976 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\Users\61415\source\repos\WebApplication2\WebApplication2
+2022-02-02 11:06:23,067 [4] WARN  WebApplication2.Controllers.HomeController - HomeController被构造
+2022-02-02 11:06:23,092 [4] INFO  WebApplication2.Controllers.HomeController - 这是HomeController的index 方法
+2022-02-02 11:08:16,228 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2022-02-02 11:08:16,248 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2022-02-02 11:08:16,252 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\Users\61415\source\repos\WebApplication2\WebApplication2
+2022-02-02 11:08:16,325 [7] WARN  WebApplication2.Controllers.HomeController - HomeController被构造
+2022-02-02 11:08:16,352 [7] INFO  WebApplication2.Controllers.HomeController - 这是HomeController的index 方法
+2022-02-02 11:21:23,185 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5000
+2022-02-02 11:21:23,204 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2022-02-02 11:21:23,207 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2022-02-02 11:21:23,211 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\Users\61415\source\repos\WebApplication2\WebApplication2
+2022-02-02 11:21:24,723 [16] WARN  WebApplication2.Controllers.HomeController - HomeController被构造
+2022-02-02 11:21:24,759 [16] INFO  WebApplication2.Controllers.HomeController - 这是HomeController的index 方法
+2022-02-02 11:56:41,970 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5000
+2022-02-02 11:56:41,994 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2022-02-02 11:56:41,998 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2022-02-02 11:56:42,001 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\Users\61415\source\repos\WebApplication2\WebApplication2
+2022-02-02 11:56:43,153 [8] WARN  WebApplication2.Controllers.HomeController - HomeController被构造
+2022-02-02 11:56:43,187 [8] INFO  WebApplication2.Controllers.HomeController - 这是HomeController的index 方法

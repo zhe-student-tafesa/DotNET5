@@ -1,0 +1,63 @@
+﻿@using WebApplication2.Utility.RazorGrammar
+@implements CusCustomInterface
+@functions{
+    //实现接口
+    public void Show()
+    {
+        Console.WriteLine("实现接口");
+    }
+}
+
+@functions{
+    public string GetHello()
+    {
+        return "functions----hello World02222";
+    }
+}
+<div> From method: @GetHello()</div>
+@for (int i = 0; i < 10; i++)
+{
+    <div> From method: @i</div>
+}
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+@model object;
+@using Microsoft.AspNetCore.Http;
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>
+<h1>
+    @base.ViewBag.User1
+</h1>
+<h1>
+    @base.ViewBag.configInfo
+</h1>
+
+<h1>
+    @base.ViewData["User2"]
+</h1>
+<h1>
+    @base.TempData["User3"]
+</h1>
+
+
+
+<h1>
+    @Context.Session.GetString("User5");
+</h1>
+
+<h1>
+    @Model
+</h1>
+@section Scripts{
+    <script type="text/javascript">
+        $(document).ready(function () {
+            console.log("页面加载完毕，开始JS初始化");
+            alert("您好");
+        })
+    </script>
+}
