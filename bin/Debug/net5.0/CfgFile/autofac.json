@@ -1,0 +1,14 @@
+{
+  "components": [
+    {
+      "type": "WebApplication2.Models.TestServiceA,WebApplication2",
+      "services": [
+        {
+          "type": "WebApplication2.Models.ITestServiceA, WebApplication2"
+        }
+      ],
+      "instanceScope": "single-instance",
+      "injectProperties": true
+    }
+  ]
+}

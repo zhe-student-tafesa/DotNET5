@@ -19,11 +19,11 @@ namespace WebApplication2.Controllers
     {
         private readonly ILogger<FirstController> _logger;
         private readonly Microsoft.Extensions.Configuration.IConfiguration _Configuration;
-        private readonly DbConnectionOptions _optionsCurrent;
+        private readonly DbConnectionOptions _optionsCurrent;//11 定义 DbConnectionOptions 类型的变量（用来读取配置文件）
         //IOptions引入，是一个 泛型的接口
         public FirstController(ILogger<FirstController> logger, Microsoft.Extensions.Configuration.IConfiguration configuration, IOptions<DbConnectionOptions> options)
         {
-            _optionsCurrent= options.Value;
+            _optionsCurrent= options.Value;  //22 在构造函数里 初始化
             _logger = logger;
             _logger.LogWarning("FirstController被构造");
             _Configuration = configuration;//在构造函数依赖注入， 在此初始化
@@ -42,7 +42,7 @@ namespace WebApplication2.Controllers
                 HttpContext.Session.SetString("User5","田七");
             }
             ViewBag.configInfo = _Configuration["Id"];
-            object strResult = Newtonsoft.Json.JsonConvert.SerializeObject(_optionsCurrent);// 序列化
+            object strResult = Newtonsoft.Json.JsonConvert.SerializeObject(_optionsCurrent);// 使用 Newtonsoft.Json 序列化
 
             return View(strResult);
         }

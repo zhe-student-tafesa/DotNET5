@@ -1,0 +1,12 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+@model List<Student>
+@using Microsoft.AspNetCore.Http;
+@using WebApplication2.Utility.ViewComponetExtension
+
+@foreach (var item in Model)
+{
+    <p>@item.Name</p>
+ }
+

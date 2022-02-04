@@ -1,0 +1,30 @@
+2022-02-04 15:44:49,133 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5000
+2022-02-04 15:44:49,157 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2022-02-04 15:44:49,209 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2022-02-04 15:44:49,252 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\Users\61415\source\repos\WebApplication2\WebApplication2
+2022-02-04 15:44:50,481 [4] WARN  WebApplication2.Controllers.HomeController - HomeController被构造
+2022-02-04 15:44:50,547 [4] INFO  WebApplication2.Controllers.HomeController - 这是HomeController的index 方法
+2022-02-04 17:05:17,674 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5000
+2022-02-04 17:05:17,699 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2022-02-04 17:05:17,703 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2022-02-04 17:05:17,709 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\Users\61415\source\repos\WebApplication2\WebApplication2
+2022-02-04 17:05:19,428 [13] WARN  WebApplication2.Controllers.HomeController - HomeController被构造
+2022-02-04 17:06:22,483 [13] INFO  WebApplication2.Controllers.HomeController - 这是HomeController的index 方法
+2022-02-04 17:10:22,724 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5000
+2022-02-04 17:10:22,754 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2022-02-04 17:10:22,758 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2022-02-04 17:10:22,761 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\Users\61415\source\repos\WebApplication2\WebApplication2
+2022-02-04 17:10:24,073 [4] WARN  WebApplication2.Controllers.HomeController - HomeController被构造
+2022-02-04 17:10:34,579 [4] INFO  WebApplication2.Controllers.HomeController - 这是HomeController的index 方法
+2022-02-04 17:13:07,937 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5000
+2022-02-04 17:13:07,959 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2022-02-04 17:13:07,962 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2022-02-04 17:13:07,964 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\Users\61415\source\repos\WebApplication2\WebApplication2
+2022-02-04 17:13:09,345 [15] WARN  WebApplication2.Controllers.HomeController - HomeController被构造
+2022-02-04 17:13:13,936 [15] INFO  WebApplication2.Controllers.HomeController - 这是HomeController的index 方法
+2022-02-04 21:31:51,678 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5000
+2022-02-04 21:31:51,706 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2022-02-04 21:31:51,711 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2022-02-04 21:31:51,715 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\Users\61415\source\repos\WebApplication2\WebApplication2
+2022-02-04 21:31:54,919 [4] WARN  WebApplication2.Controllers.HomeController - HomeController被构造
+2022-02-04 21:32:00,823 [4] INFO  WebApplication2.Controllers.HomeController - 这是HomeController的index 方法

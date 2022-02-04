@@ -1,0 +1,82 @@
+2022-02-03 12:02:17,662 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5000
+2022-02-03 12:02:17,674 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2022-02-03 12:02:17,677 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2022-02-03 12:02:17,680 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\Users\61415\source\repos\WebApplication2\WebApplication2
+2022-02-03 12:02:19,143 [4] WARN  WebApplication2.Controllers.HomeController - HomeController被构造
+2022-02-03 12:02:19,209 [4] INFO  WebApplication2.Controllers.HomeController - 这是HomeController的index 方法
+2022-02-03 12:08:48,461 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5000
+2022-02-03 12:08:48,488 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2022-02-03 12:08:48,491 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2022-02-03 12:08:48,494 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\Users\61415\source\repos\WebApplication2\WebApplication2
+2022-02-03 12:08:49,913 [8] WARN  WebApplication2.Controllers.HomeController - HomeController被构造
+2022-02-03 12:08:49,969 [8] INFO  WebApplication2.Controllers.HomeController - 这是HomeController的index 方法
+2022-02-03 14:55:39,264 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5000
+2022-02-03 14:55:39,295 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2022-02-03 14:55:39,299 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2022-02-03 14:55:39,303 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\Users\61415\source\repos\WebApplication2\WebApplication2
+2022-02-03 14:55:40,908 [14] ERROR Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware - An unhandled exception has occurred while executing the request.
+Microsoft.AspNetCore.Routing.Matching.AmbiguousMatchException: The request matched multiple endpoints. Matches: 
+
+Net5Service.Controllers.HomeController.Index (Net5Service)
+Net5Interface.Controllers.HomeController.Index (Net5Interface)
+WebApplication2.Controllers.HomeController.Index (WebApplication2)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ReportAmbiguity(CandidateState[] candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ProcessFinalCandidates(HttpContext httpContext, CandidateState[] candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.Select(HttpContext httpContext, CandidateState[] candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcher.MatchAsync(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.Matching.DataSourceDependentMatcher.MatchAsync(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2022-02-03 14:57:33,634 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5000
+2022-02-03 14:57:33,655 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2022-02-03 14:57:33,658 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2022-02-03 14:57:33,660 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\Users\61415\source\repos\WebApplication2\WebApplication2
+2022-02-03 14:57:35,353 [16] ERROR Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware - An unhandled exception has occurred while executing the request.
+Microsoft.AspNetCore.Routing.Matching.AmbiguousMatchException: The request matched multiple endpoints. Matches: 
+
+Net5Service.Controllers.HomeController.Index (Net5Service)
+Net5Interface.Controllers.HomeController.Index (Net5Interface)
+WebApplication2.Controllers.HomeController.Index (WebApplication2)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ReportAmbiguity(CandidateState[] candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ProcessFinalCandidates(HttpContext httpContext, CandidateState[] candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.Select(HttpContext httpContext, CandidateState[] candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcher.MatchAsync(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.Matching.DataSourceDependentMatcher.MatchAsync(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2022-02-03 15:44:43,618 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5000
+2022-02-03 15:44:43,644 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2022-02-03 15:44:43,648 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2022-02-03 15:44:43,652 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\Users\61415\source\repos\WebApplication2\WebApplication2
+2022-02-03 15:44:45,161 [4] WARN  WebApplication2.Controllers.HomeController - HomeController被构造
+2022-02-03 15:44:45,217 [4] INFO  WebApplication2.Controllers.HomeController - 这是HomeController的index 方法
+2022-02-03 21:51:56,702 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5000
+2022-02-03 21:51:56,724 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2022-02-03 21:51:56,727 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2022-02-03 21:51:56,730 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\Users\61415\source\repos\WebApplication2\WebApplication2
+2022-02-03 21:51:58,423 [16] WARN  WebApplication2.Controllers.HomeController - HomeController被构造
+2022-02-03 21:51:58,481 [16] INFO  WebApplication2.Controllers.HomeController - 这是HomeController的index 方法
+2022-02-03 21:53:08,985 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5000
+2022-02-03 21:53:09,002 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2022-02-03 21:53:09,005 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2022-02-03 21:53:09,007 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\Users\61415\source\repos\WebApplication2\WebApplication2
+2022-02-03 21:53:10,366 [16] WARN  WebApplication2.Controllers.HomeController - HomeController被构造
+2022-02-03 21:53:10,434 [16] INFO  WebApplication2.Controllers.HomeController - 这是HomeController的index 方法
+2022-02-03 21:54:54,031 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5000
+2022-02-03 21:54:54,050 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2022-02-03 21:54:54,054 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2022-02-03 21:54:54,056 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\Users\61415\source\repos\WebApplication2\WebApplication2
+2022-02-03 21:54:55,732 [9] WARN  WebApplication2.Controllers.HomeController - HomeController被构造
+2022-02-03 21:54:55,784 [9] INFO  WebApplication2.Controllers.HomeController - 这是HomeController的index 方法
+2022-02-03 22:03:50,056 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5000
+2022-02-03 22:03:50,075 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2022-02-03 22:03:50,078 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2022-02-03 22:03:50,082 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\Users\61415\source\repos\WebApplication2\WebApplication2
+2022-02-03 22:03:51,481 [6] WARN  WebApplication2.Controllers.HomeController - HomeController被构造
+2022-02-03 22:03:51,559 [6] INFO  WebApplication2.Controllers.HomeController - 这是HomeController的index 方法
